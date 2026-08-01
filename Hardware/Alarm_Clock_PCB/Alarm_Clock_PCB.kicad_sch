@@ -1931,296 +1931,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NMOS N-MOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NMOS_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -2384,6 +2094,405 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Simulation_SPICE:NMOS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NMOS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NMOS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NMOS_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2747,6 +2856,18 @@
 		)
 	)
 	(rectangle
+		(start 219.71 95.25)
+		(end 306.07 106.68)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4ef2c9ab-2115-452b-bff9-57d4281e0ed5)
+	)
+	(rectangle
 		(start 34.29 26.67)
 		(end 130.81 102.87)
 		(stroke
@@ -2896,6 +3017,16 @@
 		)
 		(uuid "ca8571d1-96dd-49ba-b3ee-1583206a9088")
 	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 261.62 110.744 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "e2f936dd-475f-45de-864c-a84921d01b44")
+	)
 	(text "Set Button\n"
 		(exclude_from_sim no)
 		(at 89.154 161.29 0)
@@ -2925,18 +3056,116 @@
 		(uuid "6cb8120d-0874-4812-b634-4c644ecdc7c6")
 	)
 	(junction
+		(at 63.5 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b84bf08e-6851-43be-bdd8-e8e9dc1333ed")
+	)
+	(junction
 		(at 87.63 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1ff0015-c632-4425-a042-9c215176b4f1")
 	)
 	(no_connect
+		(at 101.6 59.69)
+		(uuid "12eb3093-c648-40aa-a195-0f0eed66f274")
+	)
+	(no_connect
 		(at 190.5 78.74)
 		(uuid "1e099e1d-e7a3-4f7c-b9ad-de3172e9ae01")
 	)
 	(no_connect
+		(at 67.31 85.09)
+		(uuid "3ec4ef6d-3ff7-4c17-b5df-b6a235aefdbd")
+	)
+	(no_connect
+		(at 67.31 44.45)
+		(uuid "4e4ed853-5b89-484a-a023-57bf08c58dfe")
+	)
+	(no_connect
+		(at 67.31 39.37)
+		(uuid "5d137d8e-faf7-4207-b2c5-0513a1b900f8")
+	)
+	(no_connect
+		(at 101.6 49.53)
+		(uuid "63c938d4-4580-4566-bef2-eaae5dffb08f")
+	)
+	(no_connect
+		(at 101.6 85.09)
+		(uuid "676db892-617b-4ae8-b10d-f0e7080eb3ad")
+	)
+	(no_connect
+		(at 67.31 62.23)
+		(uuid "799a93a4-2e9a-4a15-940d-cb59fcd96953")
+	)
+	(no_connect
+		(at 67.31 57.15)
+		(uuid "7b2c0cf7-c91c-4b97-bc12-26276c2689a4")
+	)
+	(no_connect
+		(at 101.6 62.23)
+		(uuid "8301a5bf-229f-487d-a27e-d7ed0cf3d664")
+	)
+	(no_connect
+		(at 101.6 52.07)
+		(uuid "8400351e-9147-4336-9e50-003cfa7389c7")
+	)
+	(no_connect
+		(at 101.6 72.39)
+		(uuid "9840f0d3-e088-45be-bc73-7b18784ecee5")
+	)
+	(no_connect
+		(at 101.6 74.93)
+		(uuid "a75055e8-8d28-4381-9ebd-1713f8258d5b")
+	)
+	(no_connect
+		(at 101.6 44.45)
+		(uuid "ad4e023e-e39d-435c-9ba2-7eac87e0c410")
+	)
+	(no_connect
+		(at 101.6 39.37)
+		(uuid "b1c3e823-1d37-4f53-8f6e-c3b457a6064d")
+	)
+	(no_connect
+		(at 67.31 64.77)
+		(uuid "b42bb402-648b-4245-b430-dc67ad0d9f56")
+	)
+	(no_connect
+		(at 101.6 82.55)
+		(uuid "bf7a14e4-6f80-491f-b996-b3b1d427971e")
+	)
+	(no_connect
+		(at 67.31 59.69)
+		(uuid "c2415af2-6c90-4189-b5e9-0fb55d57f7d8")
+	)
+	(no_connect
+		(at 101.6 57.15)
+		(uuid "cae9f476-d414-440a-900d-247928cb2285")
+	)
+	(no_connect
+		(at 67.31 46.99)
+		(uuid "d8eb58bd-0703-4d07-862b-bf77d8893636")
+	)
+	(no_connect
+		(at 101.6 77.47)
+		(uuid "dd558942-05d1-43c7-adf7-bdccb296f4db")
+	)
+	(no_connect
+		(at 101.6 64.77)
+		(uuid "e388dc6b-699a-4517-84f3-d4f56a864699")
+	)
+	(no_connect
 		(at 190.5 81.28)
 		(uuid "ebe09360-e623-43d7-94e0-b4e86b55954f")
+	)
+	(no_connect
+		(at 101.6 69.85)
+		(uuid "efc3a381-688c-47ae-838c-ea82d75d91bd")
+	)
+	(no_connect
+		(at 67.31 36.83)
+		(uuid "f9cadde9-190b-44eb-bb16-7d322a470a62")
 	)
 	(wire
 		(pts
@@ -3010,6 +3239,26 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 72.39) (xy 67.31 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dae6eac-2260-4626-873e-93f98bfd1a6f")
+	)
+	(wire
+		(pts
+			(xy 63.5 67.31) (xy 63.5 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22db27f2-6126-4e5f-b1d7-3f71a8dc5bac")
+	)
+	(wire
+		(pts
 			(xy 67.31 80.01) (xy 63.5 80.01)
 		)
 		(stroke
@@ -3017,6 +3266,16 @@
 			(type default)
 		)
 		(uuid "2b7eee88-c743-47d9-af3c-540753e838f6")
+	)
+	(wire
+		(pts
+			(xy 58.42 77.47) (xy 67.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eab570f-cd56-4c19-9b5e-05a9b361d19d")
 	)
 	(wire
 		(pts
@@ -3040,6 +3299,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 67.31) (xy 63.5 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3727d460-06cc-40ed-9899-6b1704168dc6")
+	)
+	(wire
+		(pts
 			(xy 166.37 48.26) (xy 180.34 48.26)
 		)
 		(stroke
@@ -3060,13 +3329,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 67.31) (xy 62.23 68.58)
+			(xy 58.42 69.85) (xy 67.31 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4cade509-6b1c-4471-8bf8-706f3d1214cd")
+		(uuid "4e974f48-b7e0-45fc-a6f4-88cc0e895a8e")
 	)
 	(wire
 		(pts
@@ -3190,7 +3459,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 80.01) (xy 63.5 81.28)
+			(xy 63.5 80.01) (xy 63.5 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3280,6 +3549,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 82.55) (xy 67.31 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abcb1db5-c0ea-4323-b2c0-15ccb8b5de1d")
+	)
+	(wire
+		(pts
 			(xy 190.5 91.44) (xy 184.15 91.44)
 		)
 		(stroke
@@ -3300,6 +3579,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 74.93) (xy 67.31 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b173ed09-a2a2-4e6c-9f27-1da1ea1d7ccb")
+	)
+	(wire
+		(pts
 			(xy 144.78 143.51) (xy 149.86 143.51)
 		)
 		(stroke
@@ -3317,16 +3606,6 @@
 			(type default)
 		)
 		(uuid "b395d8e4-b1e4-44a4-9953-8ba52376df75")
-	)
-	(wire
-		(pts
-			(xy 67.31 67.31) (xy 62.23 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2ff5978-e4ca-474f-9488-640631a4444a")
 	)
 	(wire
 		(pts
@@ -3590,6 +3869,28 @@
 			)
 		)
 	)
+	(global_label "GP10"
+		(shape input)
+		(at 58.42 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "196d6000-587a-419c-ad92-4030c3e2225f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.4758 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GP5"
 		(shape input)
 		(at 55.88 52.07 180)
@@ -3766,6 +4067,28 @@
 			)
 		)
 	)
+	(global_label "GP11"
+		(shape input)
+		(at 58.42 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ed9f37c-812d-4267-a086-5fcecdcc7f59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.4758 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GP4"
 		(shape input)
 		(at 185.42 86.36 180)
@@ -3788,6 +4111,28 @@
 			)
 		)
 	)
+	(global_label "GP12"
+		(shape input)
+		(at 58.42 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a538f992-3663-4831-8d55-b83bce651365")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.4758 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GP14"
 		(shape input)
 		(at 228.6 49.53 180)
@@ -3801,6 +4146,50 @@
 		(uuid "bdecd512-a601-4aab-b9c1-bb414a76935e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 220.6558 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GP13"
+		(shape input)
+		(at 58.42 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ddeaf42d-f9d6-4e81-91c8-c5d4541f5b57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.4758 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GP14"
+		(shape input)
+		(at 60.96 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec221313-2bf5-467b-9c09-2d9be740cb1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.0158 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,6 +4268,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 269.24 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "103c190b-72e5-403d-8e77-97d5344decfa")
+		(property "Reference" "H3"
+			(at 271.78 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 271.78 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 269.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 269.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Alarm_Clock_PCB"
+				(path "/d07c5149-1b66-4ccd-9452-3c51bd8fda24"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 149.86 139.7 180)
 		(unit 1)
@@ -3943,6 +4396,134 @@
 			(project "Alarm_Clock_PCB"
 				(path "/d07c5149-1b66-4ccd-9452-3c51bd8fda24"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 288.29 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2337d490-5d58-4cb6-abb0-0f3a405de48d")
+		(property "Reference" "H4"
+			(at 290.83 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 290.83 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 288.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 288.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Alarm_Clock_PCB"
+				(path "/d07c5149-1b66-4ccd-9452-3c51bd8fda24"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 248.92 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2919a649-7b7c-4e30-88c7-abc4c6bfdaa8")
+		(property "Reference" "H2"
+			(at 251.46 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 251.46 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 248.92 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 248.92 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Alarm_Clock_PCB"
+				(path "/d07c5149-1b66-4ccd-9452-3c51bd8fda24"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4542,79 +5123,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 250.19 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "485ecbde-513d-48ab-a602-12a873206f5a")
-		(property "Reference" "Q1"
-			(at 256.54 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS"
-			(at 256.54 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
-			(at 255.27 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 250.19 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "G"
-			(uuid "0fec3ac8-e47c-4146-acd3-6f0683cbbd8d")
-		)
-		(pin "S"
-			(uuid "15c156f6-4071-4423-ad7a-b9735b54e799")
-		)
-		(pin "D"
-			(uuid "0914e5f4-ecf1-4eb2-bda8-063322ac8bc6")
-		)
-		(instances
-			(project ""
-				(path "/d07c5149-1b66-4ccd-9452-3c51bd8fda24"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 153.67 151.13 0)
 		(unit 1)
@@ -4820,7 +5328,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 81.28 0)
+		(at 63.5 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4829,7 +5337,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e776f9b-642f-4f3b-885c-a8f70b558a7b")
 		(property "Reference" "#PWR06"
-			(at 63.5 87.63 0)
+			(at 63.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +5346,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 86.36 0)
+			(at 63.5 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,7 +5354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 81.28 0)
+			(at 63.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +5363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 81.28 0)
+			(at 63.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,7 +5372,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 81.28 0)
+			(at 63.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +5684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "00-footprint-library:CONN_OSTVN02A150_OST"
 			(at 160.02 143.51 0)
 			(effects
 				(font
@@ -5377,7 +5885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x20_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x06_P1.00mm_Vertical"
 			(at 195.58 83.82 0)
 			(effects
 				(font
@@ -5432,6 +5940,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 228.6 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84c035e5-7b51-4ed9-880b-734052e08500")
+		(property "Reference" "H1"
+			(at 231.14 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 231.14 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/d07c5149-1b66-4ccd-9452-3c51bd8fda24"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 97.79 189.23 0)
 		(unit 1)
@@ -5459,7 +6031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "00-footprint-library:CONN_OSTVN02A150_OST"
 			(at 97.79 189.23 0)
 			(effects
 				(font
@@ -6329,7 +6901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "00-footprint-library:CONN_OSTVN02A150_OST"
 			(at 166.37 187.96 0)
 			(effects
 				(font
@@ -6636,72 +7208,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 62.23 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f0061aaf-2a91-4c1c-90ba-255624c2b5ed")
-		(property "Reference" "#PWR05"
-			(at 62.23 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6dc40c3-c25a-4c7e-bbf6-9a502961a084")
-		)
-		(instances
-			(project "Alarm_Clock_PCB"
-				(path "/d07c5149-1b66-4ccd-9452-3c51bd8fda24"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 185.42 43.18 0)
 		(unit 1)
@@ -6729,7 +7235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x20_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
 			(at 185.42 43.18 0)
 			(effects
 				(font
@@ -6805,7 +7311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+		(property "Footprint" "00-footprint-library:CONN_OSTVN02A150_OST"
 			(at 95.25 143.51 0)
 			(effects
 				(font
@@ -6908,6 +7414,106 @@
 			(project "Alarm_Clock_PCB"
 				(path "/d07c5149-1b66-4ccd-9452-3c51bd8fda24"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 250.19 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff855f16-8d93-4364-bb8f-166e41786385")
+		(property "Reference" "Q1"
+			(at 256.54 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 256.54 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 255.27 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 250.19 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 250.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 250.19 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 250.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 250.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6769e4d6-5a3a-47b4-a631-a30537cc60a4")
+		)
+		(pin "1"
+			(uuid "218ca6d6-d81b-4aab-bb56-6dd6ef76c752")
+		)
+		(pin "2"
+			(uuid "ab537b31-320a-4ded-afd0-68573d0a7637")
+		)
+		(instances
+			(project ""
+				(path "/d07c5149-1b66-4ccd-9452-3c51bd8fda24"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
